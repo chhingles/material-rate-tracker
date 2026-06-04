@@ -1,0 +1,107 @@
+[
+  {
+    "id": "1780554850594",
+    "name": "PVC Color",
+    "rate": "139.00",
+    "vendor": "Flexicaps",
+    "date": "2026-06-04"
+  },
+  {
+    "id": "1780554240612",
+    "name": "PVC Clear",
+    "rate": "138.00",
+    "vendor": "Flexicaps",
+    "date": "2026-06-04"
+  },
+  {
+    "id": 1,
+    "name": "Artemether",
+    "rate": 17500,
+    "vendor": "Ann Finemchem",
+    "date": "2026-06-04"
+  },
+  {
+    "id": 2,
+    "name": "Artemether",
+    "rate": 16750,
+    "vendor": "Vital",
+    "date": "2026-06-04"
+  },
+  {
+    "id": 3,
+    "name": "Artemether",
+    "rate": 16500,
+    "vendor": "Accent",
+    "date": "2026-06-04"
+  },
+  {
+    "id": 4,
+    "name": "Artemether",
+    "rate": 17000,
+    "vendor": "Globela",
+    "date": "2026-06-04"
+  },
+  {
+    "id": 5,
+    "name": "Artemether",
+    "rate": 16970,
+    "vendor": "Saptam",
+    "date": "2026-06-04"
+  },
+  {
+    "id": 6,
+    "name": "Artemether",
+    "rate": 17300,
+    "vendor": "PHV",
+    "date": "2026-06-04"
+  },
+  {
+    "id": 7,
+    "name": "Lumefantrine",
+    "rate": 1750,
+    "vendor": "Ann Finemchem",
+    "date": "2026-06-04"
+  },
+  {
+    "id": 8,
+    "name": "Lumefantrine",
+    "rate": 1850,
+    "vendor": "Vital",
+    "date": "2026-06-04"
+  },
+  {
+    "id": 9,
+    "name": "Lumefantrine",
+    "rate": 1700,
+    "vendor": "Accent",
+    "date": "2026-06-04"
+  },
+  {
+    "id": 10,
+    "name": "Lumefantrine",
+    "rate": 1850,
+    "vendor": "Globela",
+    "date": "2026-06-04"
+  },
+  {
+    "id": 11,
+    "name": "Lumefantrine",
+    "rate": 1980,
+    "vendor": "Saptam",
+    "date": "2026-06-04"
+  },
+  {
+    "id": 12,
+    "name": "Lumefantrine",
+    "rate": 1875,
+    "vendor": "PHV",
+    "date": "2026-06-04"
+  },
+  {
+    "id": 13,
+    "name": "Calcium Carbonate",
+    "rate": 22,
+    "vendor": "Neelkanth",
+    "date": "2026-05-22"
+  }
+]
