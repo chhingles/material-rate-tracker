@@ -1,0 +1,163 @@
+.materials-layout {
+  @apply lg:col-span-2 space-y-4;
+}
+
+.materials-filter-panel {
+  @apply bg-white p-4 rounded-xl shadow-sm border border-slate-200 flex flex-wrap gap-4 items-center;
+}
+
+.materials-search {
+  @apply relative flex-1 min-w-[240px];
+}
+
+.materials-search-icon {
+  @apply absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-slate-400;
+}
+
+.materials-search .materials-input {
+  @apply pl-10;
+}
+
+.materials-input {
+  @apply w-full border border-slate-300 rounded-lg px-3 py-2 text-sm focus:ring-2 focus:ring-blue-500 focus:outline-none;
+}
+
+.materials-date-grid {
+  @apply grid grid-cols-2 gap-3 flex-1 min-w-[260px];
+}
+
+.materials-date-label {
+  @apply block text-slate-500 text-[11px] uppercase tracking-[0.16em] font-semibold;
+}
+
+.materials-count-pill {
+  @apply text-sm text-slate-400 bg-slate-50 border border-slate-100 px-3 py-1.5 rounded-lg flex items-center gap-2 whitespace-nowrap;
+}
+
+.materials-count-value {
+  @apply font-bold text-slate-500;
+}
+
+.materials-table-card {
+  @apply bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden;
+}
+
+.materials-table-scroll {
+  @apply overflow-x-auto;
+}
+
+.materials-table {
+  @apply w-full text-left border-collapse;
+}
+
+.materials-table-header {
+  @apply bg-slate-50 text-slate-500 uppercase text-xs font-bold tracking-wider border-b border-slate-200;
+}
+
+.materials-table-heading {
+  @apply py-3.5 px-4;
+}
+
+.materials-table-heading-sortable {
+  @apply cursor-pointer hover:bg-slate-100 select-none transition-colors;
+}
+
+.materials-sort-arrow {
+  @apply ml-1.5 inline-block text-xs transition-transform;
+}
+
+.materials-sort-arrow.asc {
+  @apply text-blue-600;
+}
+
+.materials-sort-arrow.desc {
+  @apply text-blue-600;
+}
+
+.materials-table-heading-right {
+  @apply text-right;
+}
+
+.materials-table-body {
+  @apply divide-y divide-slate-100 text-sm text-slate-600;
+}
+
+.materials-table-row {
+  @apply hover:bg-slate-50/80 transition duration-150;
+}
+
+.materials-table-cell {
+  @apply py-3.5 px-4;
+}
+
+.materials-table-name {
+  @apply font-semibold text-slate-900;
+}
+
+.materials-rate-chip {
+  @apply text-blue-600 font-bold font-mono bg-blue-50 px-2.5 py-1 rounded-md text-sm border border-blue-100;
+}
+
+.materials-table-vendor {
+  @apply text-slate-700 font-medium;
+}
+
+.materials-vendor-wrap {
+  @apply flex items-center gap-1.5;
+}
+
+.materials-vendor-icon {
+  @apply h-3.5 w-3.5 text-slate-400;
+}
+
+.materials-table-date {
+  @apply text-slate-500 whitespace-nowrap;
+}
+
+.materials-date-wrap {
+  @apply flex items-center gap-1.5 text-xs font-medium;
+}
+
+.materials-date-icon {
+  @apply h-3.5 w-3.5 text-slate-400;
+}
+
+.materials-table-actions {
+  @apply text-right whitespace-nowrap;
+}
+
+.materials-action-group {
+  @apply inline-flex gap-1;
+}
+
+.materials-icon-button {
+  @apply p-1.5 text-slate-500 rounded-md transition-colors;
+}
+
+.materials-icon-button-edit:hover {
+  @apply text-amber-600 bg-amber-50;
+}
+
+.materials-icon-button-delete:hover {
+  @apply text-red-600 bg-red-50;
+}
+
+.materials-action-icon {
+  @apply h-4 w-4;
+}
+
+.materials-empty-state {
+  @apply p-12 text-center text-slate-400 bg-slate-50/50;
+}
+
+.materials-empty-icon {
+  @apply h-8 w-8 mx-auto mb-3 text-slate-300 animate-spin;
+}
+
+.materials-empty-title {
+  @apply text-sm font-medium;
+}
+
+.materials-empty-copy {
+  @apply text-xs text-slate-400 mt-1;
+}
